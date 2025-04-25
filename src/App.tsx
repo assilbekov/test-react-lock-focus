@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { AccessibleModal, AdvancedModal, DisablableFocusLock, initVanillaJSExample, AutoFocusModal, GroupFocusModal } from './Lock';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <AccessibleModal />
+        <AdvancedModal />
+        <DisablableFocusLock />
+        <AutoFocusModal />
+        <GroupFocusModal />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
